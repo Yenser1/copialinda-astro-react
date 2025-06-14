@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(/public/Fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(/public/Fonts/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(/public/Fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Sacramento;
+    src: url(/public/Fonts/Sacramento-Regular.ttf);
+}
+
+@keyframes goingDown{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+    }
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.responsive-heading{
+    font-size: clamp(1.8rem, calc(3vw + 1rem), 5rem);
+}
+.responsive-headingTwo{
+    font-size: clamp(1.5rem, calc(2vw + 1rem), 4rem);
+}
+.navlinks{
+    font-size: clamp(0.3rem, 0.93vw, 2rem)
+}
+.paragraph{
+    font-size: clamp(0.5rem, 1vw, 2rem);
+}
+.inicioButtons{
+    font-size: clamp(1rem,1.5vw,4rem);
+}
+.ultraheading{
+    font-size: clamp(2rem ,calc(4vw + 1rem), 6rem);
+}
+.siguenos{
+    font-size: clamp(2rem, calc(1.5vw + 1rem), 5rem);
+}

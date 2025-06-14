@@ -1,0 +1,40 @@
+<div id="sliderContainer" class="relative w-full overflow-hidden m-none  h-[70vh] z-0">
+    <div class="slides flex">
+        <div class="slide min-w-full box-border">
+            <img src="/public/Images/delamataalalata.jpg" alt="De La Mata a la Lata - Linda" class="aspect-video object-cover w-full h-max">
+        </div>
+        <div class="slide min-w-full ">
+            <img src="/public/Images/estoesuncachu.jpg" alt="Esto es un Cachu - Linda" class="aspect-video object-cover w-full h-max">
+        </div>
+    </div>
+    <button class="absolute top-1/2 text-7xl left-10 cursor-pointer text-red-300 hover:scale-130 transition-transform" onclick="prevslide()">←</button>
+    <button class="absolute top-1/2 right-10 text-7xl cursor-pointer text-red-300 hover:scale-130 transition-transform" onclick="nextslide()">→</button>
+</div>
+<script is:inline>
+    let currentIndex = 0
+    
+    function showSlide(index){
+        const slides = document.querySelector(".slides")
+        const totalSlides = document.querySelectorAll(".slide").length
+
+        if (index >= totalSlides) {
+            currentIndex = 0
+        }else if(index < 0){
+            currentIndex = totalSlides - 1
+        }else{
+            currentIndex = index
+        }
+        slides.style.transform = `translateX(-${currentIndex * 100}%)`
+    }
+     function nextslide() {
+        showSlide(currentIndex + 1)
+     }
+     function prevslide() {
+        showSlide(currentIndex - 1)
+     }
+</script>
+<style>
+    .slides{
+        transition: transform 0.5s ease-in-out;
+    }
+</style>

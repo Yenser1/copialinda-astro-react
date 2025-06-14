@@ -1,0 +1,108 @@
+<div class="flex gap-[3%] justify-center">
+    <div id="card" class="max-w-1/6" style="perspective: 1000px;">
+      <img src="/public/Images/Gina.jpg" alt="Foto de Gina" class="object-cover w-full h-full shadow-2xl" style="transition: transform 0.1s ease; will-change: transform;" >
+    </div>
+    <div id="card2" class="max-w-1/6" style="perspective: 1000px;">
+      <img src="/public/Images/Luis.jpg" alt="Foto de Luis" class="object-cover w-full h-full shadow-2xl" style="transition: transform 0.1s ease; will-change: transform;" >
+    </div>
+    <div id="card3" class="max-w-1/6" style="perspective: 1000px;">
+      <img src="/public/Images/Lamaris.jpg" alt="Foto de Lamaris" class="object-cover w-full h-full shadow-2xl" style="transition: transform 0.1s ease; will-change: transform;" >
+    </div>
+    <div id="card4" class="max-w-1/6" style="perspective: 1000px;">
+      <img src="/public/Images/Luise.jpg" alt="Foto de Luise" class="object-cover w-full h-full shadow-2xl" style="transition: transform 0.1s ease; will-change: transform;" >
+    </div>
+  </div>
+  
+  
+  
+  
+  <script is:inline>
+    const card = document.getElementById("card");
+    const img = card.querySelector("img");
+     
+    card.addEventListener("mousemove", (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left; // posición del mouse dentro del div
+      const y = e.clientY - rect.top;
+  
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+  
+      const rotateX = ((y - centerY) / centerY) * -10; // inclinación vertical
+      const rotateY = ((x - centerX) / centerX) * 10;  // inclinación horizontal
+  
+      img.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    });
+  
+    card.addEventListener("mouseleave", () => {
+      img.style.transform = "rotateX(0) rotateY(0)";
+    });
+  
+  //La otra tarjeta  
+    const card2 = document.getElementById("card2");
+    const img2 = card2.querySelector("img");
+     
+    card2.addEventListener("mousemove", (e) => {
+      const rect = card2.getBoundingClientRect();
+      const x = e.clientX - rect.left; // posición del mouse dentro del div
+      const y = e.clientY - rect.top;
+  
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+  
+      const rotateX = ((y - centerY) / centerY) * -10; // inclinación vertical
+      const rotateY = ((x - centerX) / centerX) * 10;  // inclinación horizontal
+  
+      img2.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    });
+  
+    card2.addEventListener("mouseleave", () => {
+      img2.style.transform = "rotateX(0) rotateY(0)";
+    });
+  
+  
+    //La otra tarjeta
+    const card3 = document.getElementById("card3");
+    const img3 = card3.querySelector("img");
+     
+    card3.addEventListener("mousemove", (e) => {
+      const rect = card3.getBoundingClientRect();
+      const x = e.clientX - rect.left; // posición del mouse dentro del div
+      const y = e.clientY - rect.top;
+  
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+  
+      const rotateX = ((y - centerY) / centerY) * -10; // inclinación vertical
+      const rotateY = ((x - centerX) / centerX) * 10;  // inclinación horizontal
+  
+      img3.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    });
+  
+    card3.addEventListener("mouseleave", () => {
+      img3.style.transform = "rotateX(0) rotateY(0)";
+    })
+  
+  
+  //La otra tarjeta
+  const card4 = document.getElementById("card4");
+    const img4 = card4.querySelector("img");
+     
+    card4.addEventListener("mousemove", (e) => {
+      const rect = card4.getBoundingClientRect();
+      const x = e.clientX - rect.left; // posición del mouse dentro del div
+      const y = e.clientY - rect.top;
+  
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+  
+      const rotateX = ((y - centerY) / centerY) * -10; // inclinación vertical
+      const rotateY = ((x - centerX) / centerX) * 10;  // inclinación horizontal
+  
+      img4.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    });
+  
+    card4.addEventListener("mouseleave", () => {
+      img4.style.transform = "rotateX(0) rotateY(0)";
+    })
+  </script> 

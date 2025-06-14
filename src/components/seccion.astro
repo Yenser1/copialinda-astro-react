@@ -1,0 +1,9 @@
+---
+const id = Astro.url.pathname.replace("/", "")
+const url = `/public/Images/FondosSecciones/${id}.jpg`
+const name = id
+---
+<div class="w-full h-[65dvh] flex justify-center items-center bg-[#333]">
+    <h1 class="responsive-heading absolute">Esto es {name}</h1>
+    <img src={url} alt={`Esta es ${name}`} class="w-full h-full object-cover">
+</div>
