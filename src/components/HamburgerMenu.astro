@@ -1,23 +1,9 @@
-<div>
-    ⇶
-    <div>
-        <div>
-            <a href=""></a>
-        </div>
-        <div>
-            <a href=""></a>
-        </div>
-        <div>
-            <a href=""></a>
-        </div>
-        <div>
-            <a href=""></a>
-        </div>
-        <div>
-            <a href=""></a>
-        </div>
-        <div>
-            <a href=""></a>
-        </div>
+---
+import Navbar from "./navbar.astro";
+---
+
+<div class="ham-menu hidden">
+    <div class="links-container h-full w-full absolute" style="background-color: color-mix(in srgb, transparent 60%, red 40%);">
+        <Navbar isInHamMenu={true} />
     </div>
 </div>

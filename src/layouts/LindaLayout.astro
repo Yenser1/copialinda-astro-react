@@ -3,6 +3,7 @@ import "../styles/global.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import SiguenosEnNuestrasRedesSociales from "../components/siguenos.jsx"
+import HamburgerMenu from "../components/HamburgerMenu.astro";
 ---
 
 <!DOCTYPE html>
@@ -13,10 +14,11 @@ import SiguenosEnNuestrasRedesSociales from "../components/siguenos.jsx"
     <link rel="icon" href="/FaviconLinda.svg">
     <title>Linda - De la mata a la lata</title>
 </head>
-<body class="pt-[128px] pb-[80px]">
-    <Header/>
+<body>
+    <Header />
+    <HamburgerMenu />
     <slot />
-    <Footer />
     <SiguenosEnNuestrasRedesSociales>
+    <Footer />
 </body>
 </html>

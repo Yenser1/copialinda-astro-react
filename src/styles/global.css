@@ -36,7 +36,7 @@
     font-size: clamp(1.5rem, calc(2vw + 1rem), 4rem);
 }
 .navlinks{
-    font-size: clamp(0.3rem, 0.93vw, 2rem)
+    font-size: clamp(0.7rem, 0.93vw, 2rem)
 }
 .paragraph{
     font-size: clamp(0.5rem, 1vw, 2rem);
@@ -49,4 +49,12 @@
 }
 .siguenos{
     font-size: clamp(2rem, calc(1.5vw + 1rem), 5rem);
+}
+@media (max-width: 1030px) {
+    header nav{
+        display: none;
+    }
+    .ham-menu{
+        display: block;
+    }
 }

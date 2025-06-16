@@ -5,7 +5,7 @@ export default function SiguenosEnNuestrasRedesSociales(){
                     
                     <div class="flex w-1/2 gap-[5%] justify-center self-center">
                     <a href="https://www.instagram.com/productoslinda/" target="_blank">
-                    <span class="w-14 h-14 rounded-full bg-[#BABCBD] flex justify-center self-center hover:bg-red-600">
+                    <span class="w-14 h-14 rounded-full bg-[#BABCBD] flex justify-center self-center hover:bg-red-600 transition-colors duration-400">
                                 <svg class="scale-50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" 
                                 clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 
@@ -20,11 +20,11 @@ export default function SiguenosEnNuestrasRedesSociales(){
                                 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234
                                 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21
                                 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659
-                                18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#ffffff"></path> </g></svg></span>
+                        18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#ffffff"></path> </g></svg></span>
                    </a>
                    
                    <a href="https://www.facebook.com/productoslinda" target="blank">
-                        <span class="w-14 h-14 rounded-full bg-[#BABCBD] flex justify-center self-center hover:bg-red-600 transition-colors duration-500">
+                        <span class="w-14 h-14 rounded-full bg-[#BABCBD] flex justify-center self-center hover:bg-red-600 transition-colors duration-400">
                                 <svg class="scale-60" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" 
                                 stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#ffffff" d="M15 8a7 7 0 00-7-7 7 7 0 00-1.094 13.915v-4.892H5.13V8h1.777V6.458c0-1.754 
                                 1.045-2.724 2.644-2.724.766 0 1.567.137 1.567.137v1.723h-.883c-.87 0-1.14.54-1.14 1.093V8h1.941l-.31 2.023H9.094v4.892A7.001 7.001 0 0015 8z"></path><path fill="" d="M10.725 
@@ -35,7 +35,7 @@ export default function SiguenosEnNuestrasRedesSociales(){
                             
                             
                    <a href="https://www.youtube.com/channel/UCPzrqZVFdNWG-cDblICWs5Q/featured" target="blank">
-                   <span class="w-14 h-14 rounded-full bg-[#BABCBD] flex justify-center self-center hover:bg-red-600">
+                   <span class="w-14 h-14 rounded-full bg-[#BABCBD] flex justify-center self-center hover:bg-red-600 transition-colors duration-400">
                             <svg class="scale-50 z-0" viewBox="0 -3 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
                              <title>youtube [#168]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
