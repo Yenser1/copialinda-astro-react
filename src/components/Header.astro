@@ -1,11 +1,13 @@
 ---
 import Navbar from "./navbar.astro"
+import HamburgerMenu from "../components/HamburgerMenu.astro";
 ---
-<header class="header w-full bg-red-600 p-3 sticky top-0 z-50">
-    <div class="flex justify-between px-[5%]">
+<header class="header w-full bg-red-600 p-3 sticky top-0 z-50 flex justify-between items-center px-[5%]">
         <a href="/" class="flex min-w-[130px]">
             <img src="/Images/Punta Cana.png" alt="Logo de Linda" class="scale-110" style="width: clamp(100px, 100%, 500px  );">
         </a>
-        <Navbar>
-    </div>
+        <nav>
+            <Navbar />
+        </nav>
+        <HamburgerMenu />        
 </header>
