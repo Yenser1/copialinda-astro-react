@@ -1,11 +1,11 @@
-<div id="sliderContainer" class="w-full overflow-hidden m-none h-screen relative">
-    <button class="absolute text-7xl left-10 cursor-pointer text-red-300 hover:scale-130 transition-transform" onclick="prevslide()">←</button>
-    <button class="absolute text-7xl right-10 cursor-pointer text-red-300 hover:scale-130 transition-transform" onclick="nextslide()">→</button>
+<div id="sliderContainer" class="w-full overflow-hidden m-none h-max relative bg-red-500">
+    <button class="absolute z-10 top-1/2 text-7xl left-10 cursor-pointer text-red-300 hover:scale-130 transition-transform" onclick="prevslide()">←</button>
+    <button class="absolute z-10 top-1/2 text-7xl right-10 cursor-pointer text-red-300 hover:scale-130 transition-transform" onclick="nextslide()">→</button>
     <div class="slides flex relative justify-between">
-        <div class="slide min-w-full box-border">
+        <div class="slide min-w-full box-border h-max">
             <img src="/public/Images/delamataalalata.jpg" alt="De La Mata a la Lata - Linda" class="object-fit w-full h-max">
         </div>
-        <div class="slide min-w-full ">
+        <div class="slide min-w-full h-max">
             <img src="/public/Images/estoesuncachu.jpg" alt="Esto es un Cachu - Linda" class="object-cover w-full h-max">
         </div>
     </div>

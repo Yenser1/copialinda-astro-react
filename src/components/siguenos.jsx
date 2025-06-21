@@ -1,7 +1,7 @@
 export default function SiguenosEnNuestrasRedesSociales(){
-    return  <section class="flex justify-center">
-            <div class="flex w-3/4 justify-center gap-[5%]">
-                    <h2 class="siguenos text-right font-bold w-1/2 self-center">Siguenos en nuestras redes sociales</h2>
+    return  <section class="flex justify-center p-[3%]">
+            <div class="flex w-3/4 justify-center flex-col">
+                    <h2 class="siguenos text-center font-bold w-full self-center mb-[2s% ]">Siguenos en nuestras redes sociales</h2>
                     
                     <div class="flex w-1/2 gap-[5%] justify-center self-center">
                     <a href="https://www.instagram.com/productoslinda/" target="_blank">

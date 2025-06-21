@@ -4,7 +4,7 @@ const currentPath = Astro.url.pathname
 
 <div class="ham-menu z-100 hidden">
     <?xml version="1.0" encoding="UTF-8"?><svg class="abrir cursor-pointer" width="40px" height="40px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000"><path d="M3 5H21" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 12H21" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 19H21" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-    <div class="links-container  fixed inset-0 w-full h-screen justify-center bg-red-600 z-100 transition-transform duration-200">
+    <div class="links-container flex fixed inset-0 w-full h-screen justify-center bg-red-600 z-100 transition-transform duration-200">
         
         <div class="nav absolute top-[1%] right-[2%]">
             <?xml version="1.0" encoding="UTF-8"?><svg class="quitar cursor-pointer" width="60x" height="60px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M6.75827 17.2426L12.0009 12M17.2435 6.75736L12.0009 12M12.0009 12L6.75827 6.75736M12.0009 12L17.2435 17.2426" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
@@ -31,7 +31,7 @@ const currentPath = Astro.url.pathname
 
 
 
-<div class="responsive-heading flex items-center ml-24 flex-col w-full">
+<div class="responsive-heading flex items-center ml-24 flex-col">
             <a href="/" class={`${currentPath === '/' ? 'text-black' : 'text-white hover:text-stone-300 transition-all duration-300'}  font-extralight h-full p-3 flex justify-center items-center`}>Inicio</a>
 
             <a href="/CopiaLindaSobreNosotros" class={`${currentPath === '/CopiaLindaSobreNosotros' ? 'text-black' : 'text-white hover:text-stone-300 transition-all duration-300'}  font-extralight h-full p-3 flex justify-center items-center`}> Sobre Nosotros </a>
@@ -235,7 +235,7 @@ const currentPath = Astro.url.pathname
 
 <style>
     .links-container{
-        transform: translateX(100%);
+    transform: translateX(100%);
     }
 </style>
 <script is:inline>
